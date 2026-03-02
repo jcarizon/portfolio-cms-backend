@@ -1,5 +1,5 @@
 import { Injectable, HttpException, HttpStatus } from '@nestjs/common';
-import { PrismaService } from '@/prisma/prisma.service';
+import { PrismaService } from '../../prisma/prisma.service';
 import { UpdateSiteSettingsDto } from './dto/update-site-settings.dto';
 import { UpdateContactSettingsDto } from './dto/update-contact-settings.dto';
 
